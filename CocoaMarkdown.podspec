@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source_files  = "CocoaMarkdown/**/*.{h,m}"
   s.exclude_files = "CocoaMarkdown/CocoaMarkdown.h"
 
-  s.public_header_files = "CocoaMarkdown/{CMAttributedStringRenderer.h,CMDocument.h,CMDocument+AttributedStringAdditions.h,CMDocument+HTMLAdditions.h,CMHTMLRenderer.h,CMHTMLStrikethroughTransformer.h,CMHTMLUnderlineTransformer.h,CMHTMLSuperscriptTransformer.h,CMHTMLSubscriptTransformer.h,CMIterator.h,CMNode.h,CMParser.h,CMTextAttributes.h}"
+  s.public_header_files = "CocoaMarkdown/{CMAttributedStringRenderer.h,CMDocument.h,CMDocument+AttributedStringAdditions.h,CMDocument+HTMLAdditions.h,CMHTMLElementTransformer.h,CMHTMLRenderer.h,CMHTMLStrikethroughTransformer.h,CMHTMLUnderlineTransformer.h,CMHTMLScriptTransformer.h,CMHTMLSuperscriptTransformer.h,CMHTMLSubscriptTransformer.h,CMIterator.h,CMNode.h,CMParser.h,CMPlatformDefines.h,CMTextAttributes.h}"
 
   s.dependency 'cmark', '>= 0.22.0'
   s.dependency 'Ono'
